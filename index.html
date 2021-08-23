@@ -1,0 +1,693 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initialt-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title> Portfolio</title>
+</head>
+<body>
+	<div class="loader-bg">
+		<div class="loader"></div>
+	</div>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script type="text/javascript">
+		setTimeout(function(){
+			$('.loader-bg').fadeToggle();
+		},1500);
+	</script>
+
+	<section>
+		
+
+  <div class="container">
+
+  <span class="logo">AS</span>
+  <span style=" font-size: 40px; font-weight: lighter; padding: 8px 12px; ">Ali Soudagar</span>
+  <nav id="sideNav">
+  	<ul>
+  		<li><a href="">Aboutme</a></li>
+  		<li><a href="">Services</a></li>
+  		<li><a href="">Portfolio</a></li>
+  		<li><a href="">Pricings</a></li>
+  		<li><a href="">Testimonals</a></li>
+  		<li><a href="">Contacme</a></li>
+  	</ul>
+  </nav>
+  
+    <i class="fa fa-bars" id="menuBtn"></i>
+ 
+</div>
+		
+
+
+
+
+		<script>
+      var menuBtn = document.getElementById("menuBtn");
+      var sideNav = document.getElementById("sideNav");
+      sideNav.style.right ="-250px";
+      menuBtn.onclick = function(){
+      	if(sideNav.style.right == "-250px"){
+      		sideNav.style.right = "0";
+      	}
+      	else{
+      		sideNav.style.right = "-250px";
+      	}
+      }
+
+</script>
+
+		
+	</section>
+
+
+	<section id="main">
+		<div class="row">
+			<div class="col-2">
+				<img src="images/user-2.png" style="border-radius: 50%;">
+			</div>
+			<div class="col-2">
+				
+				<h1>Hi there, I'm Ali Soudagar
+
+					<br>
+
+					<div class="wrapper">
+    <div class="static-txt">I'm a</div>
+    <ul class="dynamic-txts">
+      <li><span> UI/UX Designer</span></li>
+      <li><span> Game Developer</span></li>
+      <li><span>  Web Developer</span></li>
+      <li><span>Freelancer</span></li>
+
+      
+      
+    </ul>
+  
+  </div>
+</h1>
+
+					
+
+
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+					<a href="" class="btn"> HIRE ME</a>
+			</div>
+		</div>
+		<div class="s-media">
+
+      <a href="" class="btn" ><img src="https://image.flaticon.com/icons/png/512/1312/1312139.png" width="32px"></a>
+        <a href="" class="btn" ><img src="https://image.flaticon.com/icons/png/512/187/187210.png" width="32px"></a>
+        <a href="" class="btn" ><img src="https://image.flaticon.com/icons/png/512/145/145812.png" width="32px"></a>
+		</div>
+		<script type="text/javascript">
+
+		window.onscroll = function() {myFunction()};
+
+// Get the navbar
+var topnav = document.getElementById("topnav");
+
+// Get the offset position of the navbar
+var sticky = topnav.offsetTop;
+
+// Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    topnav.classList.add("sticky")
+  } else {
+    topnav.classList.remove("sticky");
+  }
+</script>
+	</section>
+
+	<section id="about">
+		<div class="row">
+			<div class="col-2">
+				<h2> <span style="color: orange; padding: 8px 12px; width:25px; letter-spacing: 2px; border-bottom: 2px solid orange;">About Me</span></h2>
+
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. <br>Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt<br> mollit anim id est laborum.</p>
+				<a href="" class="btn">Download CV</a>       
+  </div>
+			<div class="col-2">
+				<img src="http://tokyovue.ibthemespro.com/img/1.72b1e706.jpg">
+			</div>
+		</div>
+
+
+	</section>
+
+	
+  <section class="skills">
+    <div class="row">
+      <div class="col-2">
+        <h2> <span style="color: orange; padding: 8px 12px; width:25px; letter-spacing: 2px; border-bottom: 2px solid orange;"> My Creative Skills</span></h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua.<br> Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+        proident, <br>sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <a href="" class="btn">Read More</a> 
+      </div>
+     <div class="col-2">
+       <div class="skill-bars">
+    <div class="bar">
+      <div class="info">
+        <span>HTML</span>
+      </div>
+      <div class="progress-line html">
+        <span></span>
+      </div>
+    </div>
+    <div class="bar">
+      <div class="info">
+        <span>CSS</span>
+      </div>
+      <div class="progress-line css">
+        <span></span>
+      </div>
+    </div>
+    <div class="bar">
+      <div class="info">
+        <span>jQuery</span>
+      </div>
+      <div class="progress-line jquery">
+        <span></span>
+      </div>
+    </div>
+    <div class="bar">
+      <div class="info">
+        <span>Python</span>
+      </div>
+      <div class="progress-line python">
+        <span></span>
+      </div>
+    </div>
+    <div class="bar">
+      <div class="info">
+        <span>MySQL</span>
+      </div>
+      <div class="progress-line mysql">
+        <span></span>
+      </div>
+    </div>
+  </div>
+     </div>
+
+    </div>
+
+
+  </section>
+
+	<section id="services">
+		<div class="col-2">
+			<h2> <span style="color: orange; padding: 8px 12px;  letter-spacing: 2px; border-bottom: 2px solid orange; width: 25px;">My Services  </span></h2>
+
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. </p>
+		</div>
+
+
+		<div class="slideshow-container">
+			
+
+			<div class="mySlides fade">
+
+      <div class="box-area">
+      	<div class="single-box">
+  			<div class="img-area">
+  				<img src="https://image.flaticon.com/icons/png/512/2335/2335235.png" width="125px">
+  			</div>
+  			<div class="img-text">
+  				<span class="header-text">
+  					<strong>Web & App Development</strong>
+  				</span>
+  				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+  			</div>
+  		</div>
+
+
+
+  		<div class="single-box">
+  			<div class="img-area">
+  				<img src="https://image.flaticon.com/icons/png/512/3940/3940059.png" width="125px">
+  			</div>
+  			<div class="img-text">
+  				<span class="header-text">
+  					<strong>Graphics Designer</strong>
+  				</span>
+  				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+  			</div>
+  		</div>
+
+
+  		<div class="single-box">
+  			<div class="img-area">
+  				<img src="https://image.flaticon.com/icons/png/512/1055/1055666.png" width="125px">
+  			</div>
+  			<div class="img-text">
+  				<span class="header-text">
+  					<strong>Web Designer</strong>
+  				</span>
+  				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+  			</div>
+  		</div>
+
+
+
+      </div>
+</div>
+
+
+
+<div class="mySlides fade">
+  <div class="box-area">
+      	<div class="single-box">
+  			<div class="img-area">
+  				<img src="https://image.flaticon.com/icons/png/512/4293/4293709.png" width="125px">
+  			</div>
+  			<div class="img-text">
+  				<span class="header-text">
+  					<strong>Game Developmet</strong>
+  				</span>
+  				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+  			</div>
+  		</div>
+
+
+
+  		<div class="single-box">
+  			<div class="img-area">
+  				<img src="https://image.flaticon.com/icons/png/512/1376/1376815.png" width="125px">
+  			</div>
+  			<div class="img-text">
+  				<span class="header-text">
+  					<strong>Analytics</strong>
+  				</span>
+  				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+  			</div>
+  		</div>
+
+
+  		<div class="single-box">
+  			<div class="img-area">
+  				<img src="https://image.flaticon.com/icons/png/512/2476/2476995.png" width="125px">
+  			</div>
+  			<div class="img-text">
+  				<span class="header-text">
+  					<strong>Adobe Design</strong>
+  				</span>
+  				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+  			</div>
+  		</div>
+
+
+
+
+
+
+
+      </div>
+</div>
+
+
+
+		</div>
+
+
+
+		<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+ 
+</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 8000); // Change image every 2 seconds
+}
+
+
+
+</script>
+
+	</section>
+
+	<section class="work">
+		<h2> <span style="color: orange; padding: 8px 12px; width:25px; letter-spacing: 2px; border-bottom: 2px solid orange; "> Some of My Recent Work </span></h2>
+<br>
+<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+					</p>
+
+
+ 
+
+ 	<div class="wrap">
+    <!-- filter Items -->
+    <nav>
+      <div class="items">
+        <span class="item active" data-name="all">All</span>
+        <span class="item" data-name="bag">Bag</span>
+        <span class="item" data-name="shoe">Shoe</span>
+        <span class="item" data-name="watch">Watch</span>
+        <span class="item" data-name="camera">Camera</span>
+        <span class="item" data-name="headphone">Headphone</span>
+      </div>
+    </nav>
+    <!-- filter Images -->
+    <div class="gallery">
+      <div class="image" data-name="bag"><span><img src="https://image.freepik.com/free-psd/paper-bag-concept-with-mock-up_23-2148807278.jpg"></span></div>
+      <div class="image" data-name="headphone"><span><img src="https://image.freepik.com/free-vector/sunglasses-realistic-summer-composition-with-watermelon-wireless-headphones-with-glasses-slice_1284-62422.jpg" alt=""></span></div>
+      <div class="image" data-name="camera"><span><img src="" alt="https://image.freepik.com/free-photo/front-view-hands-holding-camera_23-2148775851.jpg"></span></div>
+      <div class="image" data-name="shoe"><span><img src="https://image.freepik.com/free-psd/pair-stylish-shoes-3d-rendering-isolated_1401-2682.jpg" alt=""></span></div>
+      <div class="image" data-name="headphone"><span><img src="https://image.freepik.com/free-psd/arrangement-music-elements-blue-background-with-phone-mock-up_23-2148688407.jpg" alt=""></span></div>
+      <div class="image" data-name="watch"><span><img src="https://image.freepik.com/free-photo/closeup-watch_53876-32028.jpg" alt=""></span></div>
+      <div class="image" data-name="shoe"><span><img src="https://image.freepik.com/free-photo/pair-trainers_144627-3799.jpg" alt=""></span></div>
+      <div class="image" data-name="camera"><span><img src="https://img.freepik.com/free-vector/professional-camera-top-view_174496-18.jpg?size=338&ext=jpg" alt=""></span></div>
+    </div>
+  </div>
+  <!-- fullscreen img preview box -->
+  <div class="preview-box">
+    <div class="details">
+      <span class="title">Image Category: <p></p></span>
+      <span class="icon fas fa-times"></span>
+    </div>
+    <div class="image-box"><img src="" alt=""></div>
+  </div>
+  <div class="shadow"></div>
+  <script>
+  	const filterItem = document.querySelector(".items");
+const filterImg = document.querySelectorAll(".gallery .image");
+window.onload = ()=>{ //after window loaded
+  filterItem.onclick = (selectedItem)=>{ //if user click on filterItem div
+    if(selectedItem.target.classList.contains("item")){ //if user selected item has .item class
+      filterItem.querySelector(".active").classList.remove("active"); //remove the active class which is in first item
+      selectedItem.target.classList.add("active"); //add that active class on user selected item
+      let filterName = selectedItem.target.getAttribute("data-name"); //getting data-name value of user selected item and store in a filtername variable
+      filterImg.forEach((image) => {
+        let filterImges = image.getAttribute("data-name"); //getting image data-name value
+        //if user selected item data-name value is equal to images data-name value
+        //or user selected item data-name value is equal to "all"
+        if((filterImges == filterName) || (filterName == "all")){
+          image.classList.remove("hide"); //first remove the hide class from the image
+          image.classList.add("show"); //add show class in image
+        }else{
+          image.classList.add("hide"); //add hide class in image
+          image.classList.remove("show"); //remove show class from the image
+        }
+      });
+    }
+  }
+  for (let i = 0; i < filterImg.length; i++) {
+    filterImg[i].setAttribute("onclick", "preview(this)"); //adding onclick attribute in all available images
+  }
+}
+//fullscreen image preview function
+//selecting all required elements
+const previewBox = document.querySelector(".preview-box"),
+categoryName = previewBox.querySelector(".title p"),
+previewImg = previewBox.querySelector("img"),
+closeIcon = previewBox.querySelector(".icon"),
+shadow = document.querySelector(".shadow");
+function preview(element){
+  //once user click on any image then remove the scroll bar of the body, so user cant scroll up or down
+  document.querySelector("body").style.overflow = "hidden";
+  let selectedPrevImg = element.querySelector("img").src; //getting user clicked image source link and stored in a variable
+  let selectedImgCategory = element.getAttribute("data-name"); //getting user clicked image data-name value
+  previewImg.src = selectedPrevImg; //passing the user clicked image source in preview image source
+  categoryName.textContent = selectedImgCategory; //passing user clicked data-name value in category name
+  previewBox.classList.add("show"); //show the preview image box
+  shadow.classList.add("show"); //show the light grey background
+  closeIcon.onclick = ()=>{ //if user click on close icon of preview box
+    previewBox.classList.remove("show"); //hide the preview box
+    shadow.classList.remove("show"); //hide the light grey background
+    document.querySelector("body").style.overflow = "auto"; //show the scroll bar on body
+  }
+}
+  </script>
+
+
+
+
+  
+  
+</section>
+
+<section id="plans">
+  <div class="col-2">
+      <h2> <span style="color: orange; padding: 8px 12px;  letter-spacing: 2px; border-bottom: 2px solid orange; width: 25px;">Pricings/Plans </span></h2>
+    </div>
+
+      
+  <div class="wrapper">
+    <div class="table basic">
+      <div class="price-section">
+        <div class="price-area">
+          <div class="inner-area">
+            <span class="text">$</span>
+            <span class="price">29</span>
+          </div>
+        </div>
+      </div>
+      <div class="package-name"></div>
+      <ul class="features">
+        <li>
+          <span class="list-name">One Selected Template</span>
+          <span class="icon check"><i class="fas fa-check"></i></span>
+        </li>
+        <li>
+          <span class="list-name">100% Responsive Design</span>
+          <span class="icon check"><i class="fas fa-check"></i></span>
+        </li>
+        <li>
+          <span class="list-name">Credit Remove Permission</span>
+          <span class="icon cross"><i class="fas fa-times"></i></span>
+        </li>
+        <li>
+          <span class="list-name">Lifetime Template Updates</span>
+          <span class="icon cross"><i class="fas fa-times"></i></span>
+        </li>
+      </ul>
+      <div class="hero-btn"><button>Purchase</button></div>
+    </div>
+    <div class="table premium">
+      <div class="ribbon"><span>Recommend</span></div>
+      <div class="price-section">
+        <div class="price-area">
+          <div class="inner-area">
+            <span class="text">$</span>
+            <span class="price">59</span>
+          </div>
+        </div>
+      </div>
+      <div class="package-name"></div>
+      <ul class="features">
+        <li>
+          <span class="list-name">Five Existing Templates</span>
+          <span class="icon check"><i class="fas fa-check"></i></span>
+        </li>
+        <li>
+          <span class="list-name">100% Responsive Design</span>
+          <span class="icon check"><i class="fas fa-check"></i></span>
+        </li>
+        <li>
+          <span class="list-name">Credit Remove Permission</span>
+          <span class="icon check"><i class="fas fa-check"></i></span>
+        </li>
+        <li>
+          <span class="list-name">Lifetime Template Updates</span>
+          <span class="icon cross"><i class="fas fa-times"></i></span>
+        </li>
+      </ul>
+      <div class="hero-btn"><button>Purchase</button></div>
+    </div>
+    <div class="table ultimate">
+      <div class="price-section">
+        <div class="price-area">
+          <div class="inner-area">
+            <span class="text">$</span>
+            <span class="price">99</span>
+          </div>
+        </div>
+      </div>
+      <div class="package-name"></div>
+      <ul class="features">
+        <li>
+          <span class="list-name">All Existing Templates</span>
+          <span class="icon check"><i class="fas fa-check"></i></span>
+        </li>
+        <li>
+          <span class="list-name">100% Responsive Design</span>
+          <span class="icon check"><i class="fas fa-check"></i></span>
+        </li>
+        <li>
+          <span class="list-name">Credit Remove Permission</span>
+          <span class="icon check"><i class="fas fa-check"></i></span>
+        </li>
+        <li>
+          <span class="list-name">Lifetime Template Updates</span>
+          <span class="icon check"><i class="fas fa-check"></i></span>
+        </li>
+      </ul>
+      <div class="hero-btn"><button>Purchase</button></div>
+    </div>
+  </div>
+
+</section>
+
+
+ 	<section id="cta">
+    <div class="col-2">
+      <h2> <span style="color: orange; padding: 8px 12px;  letter-spacing: 2px; border-bottom: 2px solid orange; width: 25px;">What My Clients Say's </span></h2>
+    </div>
+   
+    <div class="cover">
+    <div class="box">
+      <i class="fas fa-quote-left quote"></i>
+      <p>Lorem aliasry ipsum dolor sits ametans, consectetur adipisicing elitits. Expedita reiciendis itaque placeat thuratu, quasi yiuos repellendus repudiandae deleniti ideas fuga molestiae, alias.</p>
+      <div class="content">
+        <div class="info">
+          <div class="name">Alexa Smith</div>
+          <div class="job">Designer | Developer</div>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+            <i class="far fa-star"></i>
+            <i class="far fa-star"></i>
+          </div>
+        </div>
+        <div class="image">
+          <img src="images/user1.jpg" alt="">
+        </div>
+      </div>
+    </div>
+    <div class="box">
+      <i class="fas fa-quote-left quote"></i>
+      <p>Lorem aliasry ipsum dolor sits ametans, consectetur adipisicing elitits. Expedita reiciendis itaque placeat thuratu, quasi yiuos repellendus repudiandae deleniti ideas fuga molestiae, alias.</p>
+      <div class="content">
+        <div class="info">
+          <div class="name">Steven Chris</div>
+          <div class="job">YouTuber | Blogger</div>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+            <i class="far fa-star"></i>
+          </div>
+        </div>
+        <div class="image">
+          <img src="images/user2.jpg" alt="">
+        </div>
+      </div>
+    </div>
+    <div class="box">
+      <i class="fas fa-quote-left  quote"></i>
+      <p>Lorem aliasry ipsum dolor sits ametans, consectetur adipisicing elitits. Expedita reiciendis itaque placeat thuratu, quasi yiuos repellendus repudiandae deleniti ideas fuga molestiae, alias.</p>
+      <div class="content">
+        <div class="info">
+          <div class="name">Kristina Bellis</div>
+          <div class="job">Freelancer | Advertiser</div>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+          </div>
+        </div>
+        <div class="image">
+          <img src="images/user-3.png" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+  </section>
+
+	<section class="contact-us">
+
+<h2> <span style="color: orange; padding: 8px 12px; width:25px; letter-spacing: 2px; border-bottom: 2px solid orange; ">Get In Touch with Me</span></h2>
+<br>
+<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, <br>sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua.</p>
+		<div class="row">
+
+			<div class="contact-col">
+
+			
+				<div>
+					<i class="fa fa-home"></i>
+					<span> <h5>EARTH Road , Human buliding</h5>
+						<p>Al- Riyadh , Saudi Arabia</p></span>
+				</div>
+				<div>
+					<i class="fa fa-phone"></i>
+					<span> <h5>+996 3645786</h5>
+						<p>Sunday - Thursday,8AM - 2PM</p></span>
+				</div>
+				<div>
+					<i class="fa fa-envelope"></i>
+					<span> <h5>info@universityofengineering.com</h5>
+						<p>Email us your query</p></span>
+				</div>
+		</div>
+		<div class="contact-col">
+			<form action="action/.php">
+				<input type="text" placeholder="Enter your name" required>
+				<input type="email" placeholder="Enter email address" required>
+				
+				<textarea rows="8" placeholder="Message" required></textarea>
+				<button type="submit" class="btn red-btn"> Send Message</button>
+			</form>
+		</div>
+	</section>
+	
+
+</body>
+</html>
+
+
+  		
